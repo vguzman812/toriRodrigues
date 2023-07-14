@@ -46,7 +46,7 @@ body{
 }
 body > * {
     opacity: 1;
-    transition: all 3s ease
+    transition: all .5s ease
 }
 
 /***************************************** Typography *******************************/
@@ -1151,13 +1151,13 @@ ul.contact-icons li .icon:before {
 
 /************************************************************* Wrapper *************************************************************/
 .wrapper {
-    padding: 10rem 10rem;
+    padding: 4rem 10rem;
     position: relative;
 }
 @media screen and (max-width: 1680px) {
 
     .wrapper {
-        padding: 1rem 8rem;
+        padding: 4rem 8rem;
     }
 
 }
@@ -1165,7 +1165,7 @@ ul.contact-icons li .icon:before {
 @media screen and (max-width: 1280px) {
 
     .wrapper {
-        padding: 6rem 6rem;
+        padding: 4rem 6rem;
     }
 }
 
@@ -1222,7 +1222,7 @@ header > section:first-child {
     flex: 1 1 70%;
     max-width: 70%;
     position:relative;
-    margin-bottom:2rem;
+    /* margin-bottom:2rem; */
     /* align-self:stretch; */
 }
 .landing-intro > * {
@@ -1257,7 +1257,7 @@ header > section:first-child {
     
     .landing {
         padding-right: 1rem;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
     }
     .landing-intro {
         padding-left: 1.5rem;
@@ -1299,14 +1299,13 @@ header > section:first-child {
 /*********************************************************** Sample Work ***********************************************************/
 
 main {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 .sample {
     max-width: 100%;
-    margin-bottom: 2rem;
 }
 .sample:last-child {
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 .sample-img {
     width: 100%;
@@ -1336,14 +1335,14 @@ main {
 
 @media screen and (min-width:737px) {
     .works .inner {
-        padding: 3rem 8rem;
+        padding: 2rem 8rem;
     }
 }
 
 @media screen and (min-width:980px) {
     .works .inner {
         display:flex;
-        padding: 3rem 0;
+        padding: 2rem 0;
         align-items:baseline;
         justify-content:space-between;
     }

@@ -94,4 +94,19 @@
 
 	};
 
+	// Populate gallery with new images. Assumes 45 images available
+
+	$('.gallery a').each(function() {
+		var randomNumber;
+		
+		// Generate a unique random number
+		randomNumber = Math.floor(Math.random() * 8) + 1;
+		
+		
+		var newHref = 'images/img' + randomNumber + '.jpg';
+		
+		$(this).attr('href', newHref);
+		$(this).children('img').attr('src', newHref);
+	});
+
 })(jQuery);

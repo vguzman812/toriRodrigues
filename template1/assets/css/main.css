@@ -28,7 +28,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 ol, ul {
 	list-style: none;
 }
@@ -3155,7 +3157,7 @@ input, select, textarea {
 	.wrapper.diag:before,
 	.wrapper.diag:after {
 	  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%23F9F5F6;' /%3E%3C/svg%3E");
-	  z-index: 2;
+	  z-index: 3;
 	}
 		.wrapper > .inner {
 			margin: 0 auto;
@@ -3180,6 +3182,7 @@ input, select, textarea {
 			content: '';
 			top: 0;
 		}
+		/* changes direction from right to left */
 		.wrapper.reverse:before {
 			-moz-transform: translateY(-100%) scale(1, -1) rotateX(180deg);
 			-webkit-transform: translateY(-100%) scale(1, -1) rotateX(180deg);
@@ -3187,9 +3190,10 @@ input, select, textarea {
 			transform: translateY(-100%) scale(1, -1) rotateX(180deg);
 			content: '';
 			top: 0;
+			z-index:3;
 		}
 
-		/* Applying alt changes the direction of the diagonal section from right to left and adds it to the bottom. top will stay in place*/
+		/* adds bottom diagonal section*/
 		.wrapper.diag.bottom {
 			padding-bottom: 1rem;
 		}
@@ -3211,7 +3215,9 @@ input, select, textarea {
 		.wrapper.style2:before, 
 		.wrapper.style2:after {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%23C4D7B2%3B' /%3E%3C/svg%3E");
+		
 		}
+
 
 		.wrapper.style3 {
 			background: #BDCDD6;
@@ -4839,6 +4845,7 @@ input, select, textarea {
 
 	#contact {
 		padding-bottom: 1%;
+		margin-top:5rem;
 	}
 
 /* One */

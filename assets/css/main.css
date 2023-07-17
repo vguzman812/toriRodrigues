@@ -3256,22 +3256,22 @@ input, select, textarea {
 		}
 		
 		.gradient {
-			background: no-repeat center/cover url("/template/images/tori/gradient1.png");
+			background: no-repeat center/cover url("/images/tori/gradient1.png");
 		}
 		.gradient2 {
-			background: no-repeat center/cover url("/template/images/tori/gradient2.png");
+			background: no-repeat center/cover url("/images/tori/gradient2.png");
 		}
 		.gradient3 {
-			background: no-repeat center/cover url("/template/images/tori/gradient3.png");
+			background: no-repeat center/cover url("/images/tori/gradient3.png");
 		}
 		.gradient4 {
-			background: no-repeat center/cover url("/template/images/tori/gradient4.png");
+			background: no-repeat center/cover url("/images/tori/gradient4.png");
 		}
 		.gradient5 {
-			background: no-repeat center/cover url("/template/images/tori/gradient5.png");
+			background: no-repeat center/cover url("/images/tori/gradient5.png");
 		}
 		.gradient6 {
-			background: no-repeat center/cover url("/template/images/tori/gradient6.png");
+			background: no-repeat center/cover url("/images/tori/gradient6.png");
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -4845,7 +4845,7 @@ input, select, textarea {
 
 	#contact {
 		padding-bottom: 1%;
-		margin-top:5rem;
+		padding-top:10rem;
 	}
 
 /* One */

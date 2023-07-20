@@ -55,16 +55,16 @@
 			// Settings.
 				var settings = {
 
-					// Images (in the format of 'url': 'alignment').
+					// Images for banner(in the format of 'url': 'alignment').
 						images: {
-							'/assets/images/img1.png': '0% 35%',
+							'/assets/images/img1.png': 'center',
 							'/assets/images/img2.png': 'center',
 							'/assets/images/img3.png': 'center',
 							'/assets/images/img4.png': 'center'
 						},
 
 					// Delay.
-						delay: 6000
+						delay: 4000
 
 				};
 

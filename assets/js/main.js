@@ -57,7 +57,7 @@
 
 					// Images for banner(in the format of 'url': 'alignment').
 						images: {
-							'/assets/images/img1.png': 'center',
+							'/assets/images/tori1.jpg': '0 35%',
 							'/assets/images/img2.png': 'center',
 							'/assets/images/img3.png': 'center',
 							'/assets/images/img4.png': 'center'

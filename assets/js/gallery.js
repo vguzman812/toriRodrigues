@@ -17,6 +17,11 @@ $('.gallery').magnificPopup({
         titleSrc: function(item) {
             return item.el.attr('title') + '<small>by Tori Rodrigues</small>';
         }
+    },
+    zoom: {
+        enabled: true,
+        duration:600,
+        easing:'ease'
     }
 });
 

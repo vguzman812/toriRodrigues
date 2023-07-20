@@ -4677,4 +4677,5 @@ input, select, textarea {
 
 	#one {
 		padding-top:3rem;
+		z-index:1000;
 	}

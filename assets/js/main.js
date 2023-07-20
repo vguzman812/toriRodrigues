@@ -57,10 +57,10 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/tori/img1.png': '0% 35%',
-							'images/tori/img2.png': 'center',
-							'images/tori/img3.png': 'center',
-							'images/tori/img4.png': 'center'
+							'/assets/images/img1.png': '0% 35%',
+							'/assets/images/img2.png': 'center',
+							'/assets/images/img3.png': 'center',
+							'/assets/images/img4.png': 'center'
 						},
 
 					// Delay.
